@@ -8,6 +8,7 @@ import { InfoEquipo } from '../interfaces/info.equipo.interface';
 })
 export class InfopaginaService {
   
+  equipo: InfoEquipo[] = [];
   info: InfoPagina = {};
   cargada = false;
 
@@ -25,18 +26,18 @@ export class InfopaginaService {
   
         this.cargada = true;
         this.info = resp;
-          console.log(resp);
         });
   }
 
   private cargarEquipo(){
       //Leer el archivo JSON
-      this.http.get('https://perfil-ennio-angular-html-default-rtdb.firebaseio.com/equipo.json')
-      .subscribe( (equipo: InfoPagina) => {
-  
+      this.http.get<InfoEquipo[]>('https://perfil-ennio-angular-html-default-rtdb.firebaseio.com/equipo.json')
+      .subscribe( (resp:InfoEquipo[]) => {
+        
+        
         this.cargada = true;
-        this.info = equipo.equipo;
-          console.log(equipo);
+        this.equipo = resp;
+        // console.log(this.equipo);
         });
   }
 }

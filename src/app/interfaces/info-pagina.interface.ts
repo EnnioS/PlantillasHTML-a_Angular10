@@ -10,11 +10,5 @@ export interface InfoPagina {
   twitter?: string;
   instagram?: string;
   tumblr?: string;
-  equipo?:{
-    frase?: string;
-    nombre?: string;
-    subtitulo?: string;
-    twitter?: string;
-    url?: string;
-  };
+  equipo_trabajo?: any[];
 }
