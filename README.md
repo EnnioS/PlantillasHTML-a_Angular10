@@ -1,6 +1,8 @@
 # Portafolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2 by Ennio Sáenz - full stack developer.
+
+In this project I use a firebase as a backend, I used the real time database service to access through firebase endpoints, and I used storage service to store images. 
 
 ## Development server
 
