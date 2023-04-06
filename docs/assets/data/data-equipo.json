@@ -1,0 +1,23 @@
+[
+   {
+    "frase": "Los mejores desarrolladores de software son los que verdaderamente disfrutan mas con lo que hacen",
+    "nombre": "Ennio Saenz",
+    "subtitulo": "Ingeniero en Sistemas",
+    "twitter": "@clicknicaragua",
+    "url": "gs://perfil-ennio-angular-html.appspot.com/team-1.jpg"
+    },
+    {
+    "frase": "Un buen desarrollador de software trabaja con disciplina y constancia desde el primer día",
+    "nombre": "Daniel Barreto",
+    "subtitulo": "Web Master",
+    "twitter": "@dany_barreto",
+    "url": "gs://perfil-ennio-angular-html.appspot.com/team-2.jpg"
+    },
+    {
+    "frase": "En ocasiones un software termina siendo un jardín abandonado lleno de malas hierbas",
+    "nombre": "Italo Estrada",
+    "subtitulo": "SEO Master Cheef",
+    "twitter": "@ita_estra",
+    "url": "gs://perfil-ennio-angular-html.appspot.com/team-3.jpg"
+    }
+]
