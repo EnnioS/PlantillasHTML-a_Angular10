@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 In this project I use a firebase as a backend, I used the real time database service to access through firebase endpoints, and I used storage service to store images. 
 
+WEB SITE: https://ennios.github.io/PlantillasHTML-a_Angular10/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
